@@ -7,16 +7,19 @@ Ejercicio 6
 
 ## Ingreso de datos
 - weekday
-- vacations
-- weekend 
-- today
+- vacation
+- puede_dormir
 
 ## Proceso
-- Pedimos today
-- Evaluar el valor de today
-- Si today es vacations o today no es un weekday
-    - Mostrar 1
-- Si no
-    - Mostrar 0
+- Obtener valor weekday
+- Obtener valor vacation
+- Si vacation es verdadero
+    - Mostrar 1 //Dormimos
+- Si no 
+    Si weekday es verdadero
+        Mostrar 0 //No dormimos
+            Si no
+                Mostrar 1 //Dormimos
+            Fin si    
     
 *Fin*
