@@ -3,7 +3,7 @@ body {
     background-attachment: scroll;
     background-size: cover;
     font-family: "Courgette";
-    color: #fff;
+    color: #000;
     padding-top: 30px;
 }
 .container {
@@ -37,7 +37,7 @@ footer {
 label {
     font-size: 20px;
     font-weight: 100;
-    color: #fff;
+    color: #000;
     text-align: center;
 }
 .row {
