@@ -26,3 +26,9 @@ function calcular() {
         }
     }
 }
+
+function limpiar (){
+    var vacation = document.getElementById("vacaciones").value="";
+    var weekday = document.getElementById("dia").value="";
+    salida.innerHTML = "";
+}
